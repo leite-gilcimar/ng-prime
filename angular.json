@@ -58,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-prime:build:production"
+              "buildTarget": "ng-prime:build:production"
             },
             "development": {
-              "browserTarget": "ng-prime:build:development"
+              "buildTarget": "ng-prime:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-prime:build"
+            "buildTarget": "ng-prime:build"
           }
         },
         "test": {

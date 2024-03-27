@@ -4,6 +4,7 @@ import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { CheckboxModule } from 'primeng/checkbox';
 import { StyleClassModule } from 'primeng/styleclass';
+import { ChartModule } from 'primeng/chart';
 
 @NgModule({
   declarations: [],
@@ -13,7 +14,8 @@ import { StyleClassModule } from 'primeng/styleclass';
     ButtonModule,
     InputTextModule,
     CheckboxModule,
+    ChartModule
   ],
-  exports: [ButtonModule, InputTextModule, CheckboxModule],
+  exports: [StyleClassModule, ButtonModule, InputTextModule, CheckboxModule, ChartModule],
 })
 export class NgPrimeModule {}
